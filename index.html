@@ -1,0 +1,33 @@
+<html>
+  <head>
+  <title>Number Guessing</title>
+  <link rel="stylesheet" href="style.css" type="text/css" >
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container col-md-12">
+    <div id="read">
+	  <h1 class="heading">Number Guessing Game</h1>
+	  <p>For every round of ten guesses, the code recycles itself to one particular random number. This random number could be any number from 1 to 100. So for you to play this game you have to guess any number between the aforementioned range in ten rounds, the system will tell you if your guess is too high or too low. The game ends when your guess is same as the choosen random number or when you have exceeded your ten rounds. <em><strong>Goodluck!</strong></em></p>
+	</div>
+      </div>
+	
+    
+	<div class="form">
+	  <label for="guessField">Enter a guess: </label>
+	  <input type="text" id="guessField" class="guessField" placeholder="example: 23">
+	  <input type="submit" value="Submit guess" class="guessSubmit" style="font-family: comic sans ms;">
+	</div>
+	
+	<div class="resultParas">
+	  <p class="guesses"></p>
+	  <p class="lastResult"></p>
+	  <p class="lowOrHi"></p>
+	</div>
+     
+	<div id="footer">
+	  Copyright &copy 2017 compiled by <a href="http://sololearn.com/Profile/3945369/" target="_blank">Deityhub</a>
+	</div>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
